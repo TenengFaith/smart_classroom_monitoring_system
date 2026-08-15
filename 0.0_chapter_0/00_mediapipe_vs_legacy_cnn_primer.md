@@ -19,7 +19,7 @@ One image goes in, one model runs, one prediction comes out. If you wanted **mul
 
 That mental model is correct — and it's also exactly what MediaPipe is doing *under the hood*. The difference is that MediaPipe formalizes that glue code into a reusable system, so you never have to write it yourself.
 
-## 2. What MediaPipe Actually Is
+## 2. What MediaPipe Actually Is:
 
 **MediaPipe is not a new kind of neural network.** It's a **pipeline framework** — Google's system for chaining together small, fast, purpose-built CNNs (plus the pre/post-processing steps between them) into a single reusable unit called a **Task**. Internally, MediaPipe represents the whole pipeline as a **graph**: a sequence of small processing nodes called **Calculators**, each one doing one job (resize a frame, run a model, crop a region, smooth a value across frames) and passing its output to the next node.
 
