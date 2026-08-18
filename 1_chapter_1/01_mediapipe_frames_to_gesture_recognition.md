@@ -3,7 +3,7 @@
 
 **By Gita — SEED ML**
 
-----------------
+------------------
 
 > This is Document 1 of a 3-part series building toward a real capstone system: a **classroom monitoring tool** that captures live video from a phone, streams it to an office laptop, detects suspicious behavior (like a student passing/copying something or turning to look at a neighbor's paper), draws a marker (a "cross"/X) over the flagged student, and rings an alarm on the office computer.
 >
